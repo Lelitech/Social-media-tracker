@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(230, 17%, 14%);
+}
+.top-nav{
+  background-color: hsl(232, 19%, 15%);
+  height: 150px; 
+  position: absolute;
+  width: 100%;
+}
+.main-container{
+  color: #fff;
+  margin: 0 15%;
+  width: 70%;
+  height: 100vh;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.facebook-card{
+  border-radius: 5px;
+  background-color: hsl(208, 92%, 53%);
+}
+.inner .up{
+  margin-top: 2rem;
+  color: hsl(163, 72%, 41%);
+  font-size: 13px;
+  font-weight: 700;
+}
+.hidden{
+  height: 2px;
+}
+.inner{
+  height: 75%;
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.inner p{
+  color: hsl(228, 12%, 44%) ;
+  margin-bottom: 10%;
+}
+.inner p img{
+  margin-bottom: -3%;
+  
+}
+.inner h1{
+  font-size: 45px;
+  font-weight: 800;
+}
+.inner  h5{
+  color: hsl(228, 12%, 44%);
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+.twitter-card{
+  border-radius: 5px;
+  background-color: hsl(203, 89%, 53%);
+}
+.instagram-card{
+  border-radius: 5px;
+  background-color: pink;
+}
+.youtube-card{
+  border-radius: 5px;
+  background-color: hsl(348, 97%, 39%);
+}
+.bottom-container{
+ margin-top: 10px;
+}
+.overview-cards{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 10px;
+}
+.card{
+  height: 80%;
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  padding: 20px; 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,2fr);
+  gap: 10px;
+}
+.card p{
+  color: hsl(228, 12%, 44%) ;
+  font-weight: 800;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.card img{
+  padding-left:  4rem;
+}
+.card .up{
+  color: hsl(163, 72%, 41%);
+  text-align: right;
+  padding-top: 1rem;
+}
+.card .down{
+  color: hsl(356, 69%, 56%);
+  text-align: right;
+  padding-top: 1rem;
+}
+.inner .down{
+  margin-top: 2rem;
+  color: hsl(356, 69%, 56%);
+  font-size: 13px;
+  font-weight: 700;
+}
+
